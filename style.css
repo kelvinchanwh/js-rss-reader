@@ -1,40 +1,49 @@
-@font-face{
-	font-family: 'Crimson Text';
-	src: url('CrimsonText.ttf');
+/* OS native font setup from: https://css-tricks.com/snippets/css/system-font-stack/ */
+@font-face {
+	font-family: system;
+	font-style: normal;
+	font-weight: 300;
+	src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
-html	{
-	font-family: 'Crimson Text', serif;
+
+html {
+	font-family: "system";
 	font-size: 11pt;
 }
-body{
+
+body {
 	width: 480px;
 	margin: auto;
 }
-body > h1{
+
+body > h1 {
 	text-align: center;
 }
-h2{
+
+h2 {
 	color: orangered;
 	margin-bottom: 0;
 	font-size: 16pt;
 }
 
-a:link{
-	
+a:link {
 	color: dodgerblue;
 }
-h2+a:link{
-	
+
+h2+a:link {
 	font-weight: bold;
 }
-h3{
+
+h3 {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 10pt;
 }
-p{
+
+p {
 	margin: 0;
 }
+
 output h1 {
 	background-color: orangered;
 	text-indent: 5px;
