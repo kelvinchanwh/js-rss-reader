@@ -10,3 +10,6 @@ Pure JavaScript - not dependent on jQuery or anything else (only a current brows
 
 ## Demo
 See the parser in action: https://lassestilvang.github.io/js-rss-reader/
+
+## Codepen
+If you feed like playing around with the code right away, you can fork my Codepen: https://codepen.io/LasseStilvang/pen/brajoo
