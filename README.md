@@ -7,3 +7,6 @@ Pure JavaScript - not dependent on jQuery or anything else (only a current brows
 
 ## Screenshot
 ![Screenshot of the page](https://lassestilvang.github.io/js-rss-reader/screenshot.png "Screenshot")
+
+## Demo
+See the parser in action: https://lassestilvang.github.io/js-rss-reader/
